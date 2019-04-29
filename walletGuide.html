@@ -59,37 +59,29 @@
 
   <br /><br />
 
-  <section id="about">
+  <!--==========================
+    Contact Section
+  ============================-->
+  <section id="contact" class="section-bg wow fadeInUp">
     <div class="container">
 
-      <header class="section-header">
-        <h3>Location</h3>
-      </header>
+      <div class="section-header">
+        <h3>Customized Wallet Guide</h3>
+        <p>To see which wallet suits you best, fill out this form!</p>
+      </div>
 
-      <h3><b>Our show locations for July 2019</b></h3>
-      <ul>
-        <li>
-          <h4>5/31—7/4: San Diego Country Fair</h4>
-          <h4>Del Mar CA</h4>
-        </li>
-        <li>
-          <h4>7/11—7/14: Bastille Days</h4>
-          <h4>Milwaukee WI</h4>
-        </li>
-        <li>
-          <h4>7/20—7/21: Tonawanda Canal Festival</h4>
-          <h4>Tonawanda NY</h4>
-        </li>
-        <li>
-          <h4>7/22—7/28: Airventure</h4>
-          <h4>Oshkosh WI</h4>
-        </li>
-      </ul>
+      <div class="form">
+        <form action="MenWallet.html" target="_blank" onsubmit="return validate()"> <!-- * means required -->
+            <h2>Fill in the quiz to find your ideal wallet.</h2><br>
+            <input type="checkbox" id="signup" name="signup" value="yes"> I like thin wallets.<br>
+            <input type="checkbox" id="signup" name="signup" value="yes"> I have many cards.<br>
+            <input type="checkbox" id="signup" name="signup" value="yes"> I carry my wallet in my back pocket.<br>
+            <input type="submit" name= "btnimage" value ="Submit"> <!-- submit is a button -->
+          </form>
+      </div>
 
     </div>
-  </section>
-
-
+  </section><!-- #contact -->
 
 <!--==========================
     Footer
