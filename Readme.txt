@@ -1,1 +1,4 @@
-A website prototype for Big Skinny wallets. 
+## Big Skinny Website Prototype
+
+### Link
+https://andeyn.github.io/bigSkinny
